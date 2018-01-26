@@ -1,15 +1,60 @@
-body{
-    background-color: lightblue;
+body {
+    background-color: black;
 }
 
-h1{
+.wrap {
+    display: grid;
+}
+
+h1 {
     text-align: center;
-    font-family: Courier New, Courier, monospace;
+    font-family: 'Roboto Condensed', sans-serif;
     color: green;
 }
 
 @media only screen and (max-device-width: 960px){
-    h1{
-        color:white;
+    body {
+        font-family: 'Roboto Condensed', sans-serif;
     }
+
+    .wrap {
+       grid-template-rows: 125px repeat(2,200px) 100px;
+       grid-template-columns: repeat(4, 1fr); 
+    }
+
+    header {
+        grid-column: span 4;
+        grid-row: 125px;
+        display: grid;
+        grid-template-columns: inherit;
+        grid-template-rows: 125px;
+    }
+
+    h1 {
+        color:red;
+        text-align: center;
+        grid-column: span 3;
+    }
+
+    .material-icons {
+        grid-column: span 1;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 3em;
+        color: red;
+    }
+    
+    .first {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .second {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+  
+
+
 }

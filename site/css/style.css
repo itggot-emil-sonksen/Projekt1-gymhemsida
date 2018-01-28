@@ -20,6 +20,7 @@ h1 {
     .wrap {
        grid-template-rows: 125px repeat(2,200px) 100px;
        grid-template-columns: repeat(4, 1fr); 
+       padding: 5px;
     }
 
     header {
@@ -36,19 +37,37 @@ h1 {
         grid-column: span 3;
     }
 
-    .material-icons {
+    .menu > .material-icons {
         grid-column: span 1;
+        display: grid; 
+    }
+
+    .material-icons {
         text-align: center;
-        margin-top: 40px;
-        font-size: 3em;
+        margin-top: 37.5px;
+        font-size: 50px;
         color: red;
         transition: 0.5s;
     }
     
     .material-icons:hover {
         transition: 0.5s;
-        font-size: 4em;
+        font-size: 65px;
         margin-top: 30px;
+    }
+
+    article {
+        display: grid;
+        grid-template-rows: 50px 150px;
+    }
+
+    article > h3 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    article > p {
+        text-align: center;
     }
 
     .first {
@@ -74,5 +93,7 @@ h1 {
         grid-column: span 4;
         margin-top: 25px;
     }
+
+
 
 }

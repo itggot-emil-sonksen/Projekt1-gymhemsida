@@ -69,7 +69,10 @@ h1 {
         color: white;
     }
 
-  
-
+    footer {
+        text-align: center;
+        grid-column: span 4;
+        margin-top: 25px;
+    }
 
 }

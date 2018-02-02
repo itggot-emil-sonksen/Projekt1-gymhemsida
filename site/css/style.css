@@ -27,33 +27,49 @@ h1 {
         grid-column: span 4;
         grid-row: 125px;
         display: grid;
-        grid-template-columns: inherit;
-        grid-template-rows: 125px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 95px 30px;
     }
 
-    h1 {
+    header > h1 {
         color:red;
         text-align: center;
-        grid-column: span 3;
+        grid-column: span 5;
+        margin-top: 10px;
     }
 
-    .menu > .material-icons {
+    nav {
+        grid-row: span 1;
+        grid-column: span 5;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: center;
+    }
+
+    .navStyle {
         grid-column: span 1;
-        display: grid; 
+        color: white;
+        text-align: center;
+        margin-top: 3px;
+        transition: 0.5s;
+        font-size: 16px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
 
-    .material-icons {
-        text-align: center;
-        margin-top: 37.5px;
-        font-size: 50px;
-        color: red;
-        transition: 0.5s;
+    .navStyle:hover {
+        font-size: 18px;
     }
-    
-    .material-icons:hover {
-        transition: 0.5s;
-        font-size: 65px;
-        margin-top: 30px;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: tomato;
     }
 
     article {
@@ -93,7 +109,5 @@ h1 {
         grid-column: span 4;
         margin-top: 25px;
     }
-
-
 
 }

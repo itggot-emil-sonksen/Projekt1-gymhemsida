@@ -27,16 +27,54 @@ h1 {
         grid-column: span 4;
         grid-row: 125px;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 95px 30px;
     }
 
     header > h1 {
         color:red;
         text-align: center;
-        grid-column: span 5;
+        grid-column: span 3;
         margin-top: 10px;
     }
+
+    .dropdown {
+        height: 65vh;
+        width: 50vw;
+        margin-left: 145px;
+        position: absolute;
+        background: black;
+        /* display: none; */
+    }
+
+    .show {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 50px);
+
+    }
+
+    .close {
+        color: red;;
+        font-size: 45px;
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+
+    ul {
+        color: red;
+    }
+
+    .menu {
+        color: red;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px;
+    }
+
+   
 
     nav {
         grid-row: span 1;

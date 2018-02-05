@@ -1,5 +1,5 @@
 function toggleMenu(){
-    var element = document.querySelector(".menu");
+    var element = document.querySelector(".dropdown");
     element.classList.toggle("show");
 
     element = document.querySelector("main");

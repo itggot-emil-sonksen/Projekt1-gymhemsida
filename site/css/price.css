@@ -18,7 +18,7 @@ h1 {
     }
 
     .wrap {
-       grid-template-rows: 130px repeat(2,200px) 100px;
+       grid-template-rows: 130px 50px repeat(3,200px) 100px;
        grid-template-columns: repeat(4, 1fr); 
        padding: 5px;
     }
@@ -143,12 +143,22 @@ h1 {
         text-align: center;
     }
 
+    .title {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
     .first {
         grid-column: span 4;
         grid-row: span 1;
     }
 
     .second {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .third {
         grid-column: span 4;
         grid-row: span 1;
     }

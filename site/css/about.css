@@ -18,7 +18,7 @@ h1 {
     }
 
     .wrap {
-       grid-template-rows: 130px repeat(2,200px) 100px;
+       grid-template-rows: 130px 250px 250px 100px;
        grid-template-columns: repeat(4, 1fr); 
        padding: 5px;
     }
@@ -35,7 +35,7 @@ h1 {
         color:red;
         text-align: center;
         grid-column: span 3;
-        margin-top: 10px;
+        margin-top: 27px;
     }
 
     nav {

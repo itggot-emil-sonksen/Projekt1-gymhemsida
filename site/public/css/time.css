@@ -94,6 +94,7 @@ h1 {
 
     a {
         text-decoration: none;
+        color: black;
     }
 
     .menu {
@@ -130,7 +131,7 @@ h1 {
     }
 
     .close {
-        color: red;
+        color: white;
         font-size: 45px;
         grid-column: 2 / 3;
         grid-row: span 1;
@@ -139,7 +140,7 @@ h1 {
     }
 
     ul {
-        color: red;
+        color: white;
         grid-row: span 1;
         grid-column: span 2;
         font-size: 20px;
@@ -154,8 +155,6 @@ h1 {
         margin-left: 5px;
         font-size: 22px;
     }
-
-    
 
     article {
         display: grid;

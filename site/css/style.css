@@ -43,7 +43,9 @@ h1 {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 95px 30px;
+        background-image: url(../img/newheader1.png)
     }
+
 
     header > h1 {
         color: red;
@@ -59,7 +61,6 @@ h1 {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 1fr;
         justify-content: center;
-        border: solid 2px black;
     }
 
     .navStyle {
@@ -75,7 +76,7 @@ h1 {
     }
 
     .navStyle:hover {
-        background-color: grey;
+        background-color: lightblue;
         height: 100%;
         margin: 0px;
 
@@ -83,7 +84,7 @@ h1 {
 
     .navStyle a {
         text-decoration: none;
-        color: black;
+        color: red;
         margin-top: 3px;
 
     }

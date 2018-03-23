@@ -32,7 +32,7 @@ h1 {
     }
 
     .wrap {
-       grid-template-rows: 125px repeat(2,200px) 100px;
+       grid-template-rows: 125px repeat(3, 220px) 100px;
        grid-template-columns: repeat(4, 1fr); 
        padding: 5px;
     }
@@ -87,10 +87,6 @@ h1 {
         margin-top: 3px;
 
     }
-
-    /* .navStyle a:hover {
-        color: black;
-    } */
 
     a {
         text-decoration: none;
@@ -155,8 +151,6 @@ h1 {
         font-size: 22px;
     }
 
-    
-
     article {
         display: grid;
         grid-template-rows: 50px 150px;
@@ -175,12 +169,57 @@ h1 {
         text-align: center;
     }
 
-    .first {
+    .index-first {
         grid-column: span 4;
         grid-row: span 1;
     }
 
-    .second {
+    .index-second {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .price-first {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .price-second {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .price-third {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .time-first {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .time-second {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .about-first {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .about-second {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .tips-first {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .tips-second {
         grid-column: span 4;
         grid-row: span 1;
     }

@@ -224,6 +224,10 @@ h1 {
         grid-row: span 1;
     }
 
+    article > p > a {
+        color: black;
+    }
+
     h3 {
         color: red;
     }
